@@ -4,6 +4,7 @@ namespace PhpPlatform\Tests\RestfulUnit;
 
 use PhpPlatform\Mock\Config\MockSettings;
 use PhpPlatform\Session\Factory;
+use PhpPlatform\RESTFul\Routing\Build;
 
 /**
  * This class provides utility methods to be called from a TestCase setupMethods to enable a TestCase for testing a service
@@ -12,7 +13,7 @@ use PhpPlatform\Session\Factory;
 class ServiceTestCase {
     
     static function setUpBeforeClass(){
-        
+        Build::run();
     }
     
     static function setUp(){
