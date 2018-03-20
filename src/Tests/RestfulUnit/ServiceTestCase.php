@@ -14,13 +14,13 @@ class ServiceTestCase {
     
     static function setUpBeforeClass(){
         Build::run();
+        MockSettings::setSettings("php-platform/session", "session.class", 'PhpPlatform\WebSession\Session');
     }
     
     static function setUp(){
         // clear session if any
         $session = Factory::getSession();
         $session->clear();
-        MockSettings::setSettings("php-platform/session", "session.class", 'PhpPlatform\WebSession\Session');
     }
     
     static function tearDownAfterClass(){
