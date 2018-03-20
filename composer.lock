@@ -1,0 +1,393 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3c7ed19a22c5a6cddc8ddc739e13121c",
+    "packages": [
+        {
+            "name": "php-platform/annotations",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPPlatform/annotations.git",
+                "reference": "f72f1359fa47da399a261f3e7b94e4e3e52ad331"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPPlatform/annotations/zipball/f72f1359fa47da399a261f3e7b94e4e3e52ad331",
+                "reference": "f72f1359fa47da399a261f3e7b94e4e3e52ad331",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpPlatform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Raghavendra K R",
+                    "email": "krraghavendra@yahoo.co.in",
+                    "homepage": "http://krraghavendra.in",
+                    "role": "Software Developer"
+                }
+            ],
+            "homepage": "https://github.com/PHPPlatform/annotations",
+            "keywords": [
+                "annotations",
+                "php-platform"
+            ],
+            "time": "2017-01-09T06:44:50+00:00"
+        },
+        {
+            "name": "php-platform/config",
+            "version": "v0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPPlatform/config.git",
+                "reference": "74a7f2e40411d94cdc6c48d2a7773965930964e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPPlatform/config/zipball/74a7f2e40411d94cdc6c48d2a7773965930964e0",
+                "reference": "74a7f2e40411d94cdc6c48d2a7773965930964e0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "php-platform/json-cache": "~0.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpPlatform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Raghavendra K R",
+                    "email": "krraghavendra@yahoo.co.in",
+                    "homepage": "http://krraghavendra.in",
+                    "role": "Software Developer"
+                }
+            ],
+            "homepage": "https://github.com/PHPPlatform/config",
+            "keywords": [
+                "Settings",
+                "config",
+                "php-platform"
+            ],
+            "time": "2017-06-06T07:06:08+00:00"
+        },
+        {
+            "name": "php-platform/errors",
+            "version": "v0.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPPlatform/errors.git",
+                "reference": "9ad0dde7729df630a0010cca6c680fdc305ed20e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPPlatform/errors/zipball/9ad0dde7729df630a0010cca6c680fdc305ed20e",
+                "reference": "9ad0dde7729df630a0010cca6c680fdc305ed20e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "php-platform/config": "~0.1"
+            },
+            "require-dev": {
+                "php-platform/mock-config": "~0.1",
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpPlatform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Raghavendra K R",
+                    "email": "krraghavendra@yahoo.co.in",
+                    "homepage": "http://krraghavendra.in",
+                    "role": "Software Developer"
+                }
+            ],
+            "homepage": "https://github.com/PHPPlatform/errors",
+            "keywords": [
+                "errors",
+                "exception",
+                "logging",
+                "php-platform"
+            ],
+            "time": "2018-02-13T06:52:05+00:00"
+        },
+        {
+            "name": "php-platform/json-cache",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPPlatform/json-cache.git",
+                "reference": "e9279ab977a16d586023c2b99d343f3d8c497d9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPPlatform/json-cache/zipball/e9279ab977a16d586023c2b99d343f3d8c497d9a",
+                "reference": "e9279ab977a16d586023c2b99d343f3d8c497d9a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpPlatform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Raghavendra K R",
+                    "email": "krraghavendra@yahoo.co.in",
+                    "homepage": "http://krraghavendra.in",
+                    "role": "Software Developer"
+                }
+            ],
+            "homepage": "https://github.com/PHPPlatform/json-cache",
+            "keywords": [
+                "cache",
+                "caching",
+                "json",
+                "metadata",
+                "php-platform"
+            ],
+            "time": "2017-03-31T09:46:34+00:00"
+        },
+        {
+            "name": "php-platform/mock-config",
+            "version": "v0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPPlatform/mock-config.git",
+                "reference": "ba93f07e9c7d9752d442daf6eaa8faa91fc9e088"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPPlatform/mock-config/zipball/ba93f07e9c7d9752d442daf6eaa8faa91fc9e088",
+                "reference": "ba93f07e9c7d9752d442daf6eaa8faa91fc9e088",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "php-platform/config": "~0.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpPlatform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Raghavendra K R",
+                    "email": "raaghu1987@gmail.com",
+                    "homepage": "http://krraghavendra.in",
+                    "role": "Software Developer"
+                }
+            ],
+            "homepage": "https://github.com/PHPPlatform/mock-config",
+            "keywords": [
+                "Settings",
+                "config",
+                "mock",
+                "php-platform"
+            ],
+            "time": "2017-01-19T14:25:22+00:00"
+        },
+        {
+            "name": "php-platform/restful",
+            "version": "v0.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/php-platform/restful.git",
+                "reference": "f53554ea4dfd68ce33aa440d62b112656226102e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/php-platform%2Frestful/repository/archive.zip?sha=f53554ea4dfd68ce33aa440d62b112656226102e",
+                "reference": "f53554ea4dfd68ce33aa440d62b112656226102e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "php-platform/annotations": "~0.1",
+                "php-platform/config": "~0.1",
+                "php-platform/session": "~0.1"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~3.8",
+                "php-platform/mock-config": "~0.1",
+                "phpunit/phpunit": "~4.8"
+            },
+            "bin": [
+                "bin/build-restful"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpPlatform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Raghavendra K R",
+                    "email": "krraghavendra@yahoo.co.in",
+                    "homepage": "http://krraghavendra.in",
+                    "role": "Software Developer"
+                }
+            ],
+            "homepage": "https://github.com/PHPPlatform/restful",
+            "keywords": [
+                "REST APIs",
+                "php restful",
+                "rest services",
+                "restful",
+                "web services"
+            ],
+            "time": "2018-02-10T09:08:42+00:00"
+        },
+        {
+            "name": "php-platform/session",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPPlatform/session.git",
+                "reference": "d8240c2c0b8cdb9a076cef13ce81d737994da83e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPPlatform/session/zipball/d8240c2c0b8cdb9a076cef13ce81d737994da83e",
+                "reference": "d8240c2c0b8cdb9a076cef13ce81d737994da83e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "php-platform/config": "~0.1",
+                "php-platform/errors": "~0.1"
+            },
+            "require-dev": {
+                "php-platform/mock-config": "~0.1",
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpPlatform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Raghavendra K R",
+                    "email": "krraghavendra@yahoo.co.in",
+                    "homepage": "http://krraghavendra.in",
+                    "role": "Software Developer"
+                }
+            ],
+            "homepage": "https://github.com/PHPPlatform/session",
+            "keywords": [
+                "collaboration",
+                "php session",
+                "session"
+            ],
+            "time": "2017-08-11T15:43:28+00:00"
+        },
+        {
+            "name": "php-platform/web-session",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/php-platform/web-session.git",
+                "reference": "460648171b6e9dcd7e90db64e6ba4cf173fb16c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/php-platform%2Fweb-session/repository/archive.zip?sha=460648171b6e9dcd7e90db64e6ba4cf173fb16c3",
+                "reference": "460648171b6e9dcd7e90db64e6ba4cf173fb16c3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "php-platform/session": "~0.1"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~3.8",
+                "php-platform/mock-config": "~0.1",
+                "phpunit/phpunit": "~4.8"
+            },
+            "bin": [
+                "bin/delete-expired-sessions"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpPlatform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Raghavendra K R",
+                    "email": "krraghavendra@yahoo.co.in",
+                    "homepage": "http://krraghavendra.in",
+                    "role": "Software Developer"
+                }
+            ],
+            "homepage": "https://github.com/PHPPlatform/web-session",
+            "keywords": [
+                "php-platform",
+                "restful session",
+                "session"
+            ],
+            "time": "2017-08-13T14:22:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5"
+    },
+    "platform-dev": []
+}

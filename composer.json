@@ -1,0 +1,38 @@
+{
+	"name" : "php-platform/restful-unit",
+	"type" : "library",
+	"keywords" : [
+		"php-platform",
+		"rest",
+		"restful",
+		"unit test",
+		"phpunit",
+		"webservice test",
+		"unit-testing"
+	],
+	"homepage" : "https://github.com/PHPPlatform/persist-unit",
+	"authors" : [{
+			"name" : "Raghavendra K R",
+			"email" : "krraghavendra@yahoo.co.in",
+			"homepage" : "http://krraghavendra.in",
+			"role" : "Software Developer"
+		}
+	],
+	"require" : {
+		"php" : ">=5.5",
+		"php-platform/restful" : "~0.1",
+		"php-platform/web-session" : "~0.1",
+		"php-platform/mock-config" : "~0.1",
+		"php-platform/errors" : "~0.1"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"PhpPlatform\\" : "src/"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"PhpPlatform\\Tests\\" : "tests/"
+		}
+	}
+}
