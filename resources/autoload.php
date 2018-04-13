@@ -15,6 +15,10 @@ if(is_file($coverageFile)){
 // copy resources/.htaccess and resources/index.php to root of the package
 $restfulRootDir = $packageRootDir.'/vendor/php-platform/restful/';
 
+if(!is_dir($restfulRootDir)){
+    $restfulRootDir = $packageRootDir;
+}
+
 copy($restfulRootDir.'/resources/.htaccess',$packageRootDir.'/.htaccess');
 $index = file_get_contents($restfulRootDir.'/resources/index.php');
 
