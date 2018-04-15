@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "3c7ed19a22c5a6cddc8ddc739e13121c",
@@ -230,16 +230,16 @@
         },
         {
             "name": "php-platform/restful",
-            "version": "v0.1.8",
+            "version": "v0.1.9",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/php-platform/restful.git",
-                "reference": "f53554ea4dfd68ce33aa440d62b112656226102e"
+                "reference": "a5617110eaa011cd2c562342e7b721f57b356435"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/php-platform%2Frestful/repository/archive.zip?sha=f53554ea4dfd68ce33aa440d62b112656226102e",
-                "reference": "f53554ea4dfd68ce33aa440d62b112656226102e",
+                "url": "https://gitlab.com/api/v4/projects/php-platform%2Frestful/repository/archive.zip?sha=a5617110eaa011cd2c562342e7b721f57b356435",
+                "reference": "a5617110eaa011cd2c562342e7b721f57b356435",
                 "shasum": ""
             },
             "require": {
@@ -279,7 +279,7 @@
                 "restful",
                 "web services"
             ],
-            "time": "2018-02-10T09:08:42+00:00"
+            "time": "2018-03-20T10:05:26+00:00"
         },
         {
             "name": "php-platform/session",

@@ -20,10 +20,12 @@
 	],
 	"require" : {
 		"php" : ">=5.5",
-		"php-platform/restful" : "~0.1",
 		"php-platform/web-session" : "~0.1",
 		"php-platform/mock-config" : "~0.1",
 		"php-platform/errors" : "~0.1"
+	},
+	"suggest" : {
+		"php-platform/restful" : "This restful-unit package works well with v0.1-dev release of php-platform/restful"
 	},
 	"autoload" : {
 		"psr-4" : {
